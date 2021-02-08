@@ -1,0 +1,6 @@
+Homepage e steps to follow:
+1. Type username first (sumaiya)
+2. Press enter
+3. Type password (bossmadam)
+4. Click on login
+P.s.: clicking on the text windows wont work cuz the boxes are inactive. Pressing backspace also messes it up.

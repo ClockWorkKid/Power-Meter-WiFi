@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Sayeed:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Sayeed_jar</output-path>
+    <root id="archive" name="Sayeed.jar">
+      <element id="module-output" name="Sayeed" />
+    </root>
+  </artifact>
+</component>

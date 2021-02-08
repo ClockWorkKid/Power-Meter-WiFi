@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuController">
+   <children>
+      <Text layoutX="207.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DPDC Homepage" wrappingWidth="210.85986328125">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="livefeedButton" layoutX="75.0" layoutY="98.0" mnemonicParsing="false" onAction="#livefeedAction" prefHeight="106.0" prefWidth="154.0" text="Live Feed" />
+      <Button fx:id="duebillButton" layoutX="370.0" layoutY="98.0" mnemonicParsing="false" onAction="#duebillAction" prefHeight="106.0" prefWidth="154.0" text="Due Bills" />
+      <Button fx:id="historyButton" layoutX="75.0" layoutY="261.0" mnemonicParsing="false" onAction="#historyAction" prefHeight="106.0" prefWidth="154.0" text="History" />
+      <Button fx:id="userinfoButton" layoutX="370.0" layoutY="261.0" mnemonicParsing="false" onAction="#userinfoAction" prefHeight="106.0" prefWidth="154.0" text="User Info" />
+      <Button fx:id="signoutButton" layoutX="447.0" layoutY="14.0" mnemonicParsing="false" onAction="#signoutAction" text="Sign Out" />
+   </children>
+</Pane>
